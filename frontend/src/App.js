@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
+//Bootstrap css file import
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import { Routes, Route, Navigate } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "./redux/store";
 import Home from "./components/Home/Home";
 import SearchResult from "./components/SearchResult/SearchResult";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -20,4 +20,5 @@ function App() {
     </>
   );
 }
+
 export default App;
