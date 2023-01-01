@@ -5,7 +5,6 @@ import { Provider } from "react-redux";
 import { store } from "./redux/store";
 import Home from "./components/Home/Home";
 import SearchResult from "./components/SearchResult/SearchResult";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -21,5 +20,4 @@ function App() {
     </>
   );
 }
-
 export default App;

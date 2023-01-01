@@ -26,7 +26,8 @@ const Home = () => {
               <InputGroup.Text id="basic-addon1" style={{}}>
                 <Form.Select
                   value={category}
-                  onChange={(e) => setCategory(e.target.value)}>
+                  onChange={(e) => setCategory(e.target.value)}
+                >
                   <option value="all">Category</option>
                   <option value="novel">Novel</option>
                   <option value="health">Health</option>
@@ -38,12 +39,14 @@ const Home = () => {
               <Button
                 onClick={searchQuery}
                 variant="outline-primary"
-                id="button-addon2">
+                id="button-addon2"
+              >
                 Button
               </Button>
             </InputGroup>
           </Col>
         </Row>
+        <h1>I am adeel</h1>
       </Container>
     </>
   );
